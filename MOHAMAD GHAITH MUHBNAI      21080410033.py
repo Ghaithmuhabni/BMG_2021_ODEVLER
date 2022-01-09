@@ -1,13 +1,12 @@
 #1 liste olusturdum
-kisiler = ["mohamad" , "ghaith" , "omer" , "amir" ]
+kisiler = [ "ghaith" , "ubey" , "majd" ]
 kulancilist = []
 #2 liste ekrana yazdir
 print(kisiler)
 
 
-j =int(input("kac isim eklemek istiyorsun   :  "))
 #3 kulancidan 3 isim iste
-for i in range (j): 
+for i in range (3): 
  kulancilist = input("Enter the names  :  ")
 
 
@@ -23,7 +22,7 @@ print(len(kisiler))
 print(kisiler[1])
 
 #7 son elemanını listeden sil
-kisiler.pop(-1)
+kisiler.pop(5)
 
 for i in range (len(kisiler)) :  
  print(kisiler[i])
